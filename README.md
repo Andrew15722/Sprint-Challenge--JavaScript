@@ -30,7 +30,7 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
-The forEach method calls a function that runs on each element in an array and mutates that array.
+The forEach method calls a function that runs on each element in an array and mutates that array. Push
 The map method calls a function that also runs on each element in an array except it returns a new array the of the same size with your return values in it.
 
 2. What is the difference between a function and a method?
