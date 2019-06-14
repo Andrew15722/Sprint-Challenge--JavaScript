@@ -49,9 +49,11 @@ Window binding is when the this keyword is referring to the window object/defaul
 
 New binding is when you invoke a function with the new keyword, and it binds the this keyword from inside that function to a new object.
 
-
+explicit binding is when you use a call method for example in a function in order to have the this key word in that function refer to whatever object is passed into the call method.
 
 5. Why do we need super() in an extended class?
+
+The super method allows you to inherit the properties of a parent class and also call the methods of a parent class explicitly.
 
 ## Project Set up
 
