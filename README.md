@@ -30,11 +30,26 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
+The forEach method calls a function that runs on each element in an array and mutates that array.
+The map method calls a function that also runs on each element in an array except it returns a new array the of the same size with your return values in it.
+
 2. What is the difference between a function and a method?
+
+A method is a function of an object and is bound to that object.
 
 3. What is closure?
 
+A closure is a function inside of another function that has access to that outer function's variables(bindings) and the global variables(bindings).
+
 4. Describe the four rules of the 'this' keyword.
+
+The implicit binding is when you call a function and that function is invoked. Whatever is to the left of the dot is what the this keyword is referancing or is implicitly bound to.
+
+Window binding is when the this keyword is referring to the window object/defaults to the window object.
+
+New binding is when you invoke a function with the new keyword, and it binds the this keyword from inside that function to a new object.
+
+
 
 5. Why do we need super() in an extended class?
 
